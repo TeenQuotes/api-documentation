@@ -10,6 +10,7 @@ All API calls to endpoints require an **access_token**. Check the authentication
 
 #### Quotes Resources
 - **[<code>GET</code> quotes](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/quotes/GET_quotes.md)** Get information about multiples quotes.
+- **[<code>POST</code> quotes](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/quotes/POST_quotes.md)** Submit a new quote.
 - **[<code>GET</code> quotes/random](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/quotes/GET_quotes_random.md)** Get information about multiples quotes randomly ordered.
 - **[<code>GET</code> quotes/:id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/quotes/GET_quotes_id.md)** Get information about a single quote.
 
