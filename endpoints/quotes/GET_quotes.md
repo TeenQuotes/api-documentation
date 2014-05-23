@@ -27,7 +27,7 @@ Example request:
     GET https://api.teen-quotes.com/v1/quotes?page=2&pagesize=10
 
 ## Return format
-A JSON object containing keys **quotes** where **quotes** is a list of Quote object in **full format** with their author is **small author**.
+A JSON object containing keys **quotes** where **quotes** is a list of Quote object in **full format** with their author in **small format**.
 
 Quote object:
 
@@ -38,7 +38,7 @@ Quote object:
 - **created_at** - Date telling when the quote was submitted.
 - **has_comments** - Tells if a quote has comments.
 - **total_comments** - The number of comments for the quote.
-- **is_favorite** - Tells if the quote in the favorite quotes of the user.
+- **is_favorite** - Tells if the quote is in the favorite quotes of the user.
 
 
 User object:
@@ -47,7 +47,7 @@ User object:
 - **login** - Login of the user.
 - **profile_hidden** - Tells if the profile of the user should be hidden.
 - **url_avatar** - Full URL of the user's avatar.
-- **wants_notification_comment_quote** - Tells if the user wants to be notified when a comment on one of its quotes.
+- **wants_notification_comment_quote** - Tells if the user wants to be notified when a comment is added on one of its quotes.
 - **is_admin** - True if the user is an administrator.
 
 Additional keys:
