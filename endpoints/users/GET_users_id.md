@@ -21,7 +21,7 @@ The **country_object** as got the following format:
 - **name** - English name of the country
 
 ## Errors
-All known errors cause the resource to return HTTP error code header together with a JSON array containing at least 'status' and 'error' keys describing the source of error.
+All known errors cause the resource to return HTTP error code header together with a JSON array containing at least `status` and `error` keys describing the source of error.
 
 - **404 Not Found** — User with the specified ID does not exist.
 

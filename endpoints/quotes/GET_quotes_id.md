@@ -35,7 +35,7 @@ The author of the quote as got the following format:
 - **profile_hidden** - does the user has got a public profile or not
 
 ## Errors
-All known errors cause the resource to return HTTP error code header together with a JSON array containing at least 'status' and 'error' keys describing the source of error.
+All known errors cause the resource to return HTTP error code header together with a JSON array containing at least `status` and `error` keys describing the source of error.
 
 - **404 Not Found** — Quote with the specified ID does not exist.
 
