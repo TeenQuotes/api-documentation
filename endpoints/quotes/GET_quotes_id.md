@@ -23,10 +23,12 @@ A JSON object containing keys **user** and **comments**, where **user** is a Use
 
 The user of a comment as got the following format:
 
-- **id** - ID of the user
-- **login** - username of the user
-- **avatar** - full URL to the avatar of the user
-- **profile_hidden** - does the user has got a public profile or not
+- **id** - ID of the user.
+- **login** - Login of the user.
+- **profile_hidden** - Tells if the profile of the user should be hidden.
+- **url_avatar** - Full URL of the user's avatar.
+- **wants_notification_comment_quote** - Tells if the user wants to be notified when a comment on one of its quotes.
+- **is_admin** - True if the user is an administrator.
 
 The author of the quote as got the following format:
 
@@ -42,7 +44,7 @@ All known errors cause the resource to return HTTP error code header together wi
 ## Example
 **Request**
 
-    GET v1/quotes/683
+    GET https://api.teen-quotes.com/v1/quotes/683
 
 **Return**
 ``` json

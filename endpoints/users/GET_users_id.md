@@ -28,14 +28,14 @@ All known errors cause the resource to return HTTP error code header together wi
 ## Example
 **Request**
 
-    GET v1/users/42
+    GET https://api.teen-quotes.com/v1/users/42
 
 **Return**
 ``` json
 {
    "id":"42",
    "login":"antoineaugusti",
-   "email":"antoine.augusti@gmail.com",
+   "email":"anonymous@gmail.com",
    "birthdate":"1980-08-01",
    "gender":"M",
    "country":"107",
