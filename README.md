@@ -1,5 +1,5 @@
 # Teen Quotes API
-All API require an **access_token**. Check the authentication section to know how to get one.
+All API calls to endpoints require an **access_token**. Check the authentication section to know how to get one.
 
 ## Authentication
 
