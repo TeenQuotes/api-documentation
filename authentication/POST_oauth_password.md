@@ -24,6 +24,7 @@ Example POST request:
    "username":"antoineaugusti",
    "password":"iamawesome"
 }
+```
 
 ## Return format
 A JSON object containing the following keys.
