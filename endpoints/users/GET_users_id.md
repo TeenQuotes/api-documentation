@@ -8,6 +8,14 @@ Returns detailed information of a user.
 ## Requires authentication
 * A valid access token must be provided in **access_token** parameter.
 
+The `access_token` should be sent using an HTTP header like so:
+
+     Authorization: access_token
+
+An example call with CURL:
+
+     curl --header "Authorization: ZllAle9NZ11FkMyX5xm0evswWOTinrr5I26uLcGB" https://api.teen-quotes.com/v1/users/42
+
 ## Return format
 A JSON object containing keys **country_object** and **newsletters**, where **country_object** is a Country object in **small format** and **newsletters** is a list of Newsletter object associated with the user in the following format:
 

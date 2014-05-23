@@ -8,6 +8,14 @@ Returns information about quotes for a given page and a given pagesize.
 ## Requires authentication
 * A valid access token must be provided in **access_token** parameter.
 
+The `access_token` should be sent using an HTTP header like so:
+
+     Authorization: access_token
+
+An example call with CURL:
+
+     curl --header "Authorization: ZllAle9NZ11FkMyX5xm0evswWOTinrr5I26uLcGB" https://api.teen-quotes.com/v1/quotes
+
 ## Parameters
 All parameters are optional. If you don't provide these parameters the default values will be used:
 

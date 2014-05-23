@@ -8,6 +8,14 @@ Returns detailed information of a single quote.
 ## Requires authentication
 * A valid access token must be provided in **access_token** parameter.
 
+The `access_token` should be sent using an HTTP header like so:
+
+     Authorization: access_token
+
+An example call with CURL:
+
+     curl --header "Authorization: ZllAle9NZ11FkMyX5xm0evswWOTinrr5I26uLcGB" https://api.teen-quotes.com/v1/quotes/42
+
 ## Return format
 A JSON object containing keys **user** and **comments**, where **user** is a User object in **small format** and comments is a list of **comments** associated with the quote in the following format:
 
