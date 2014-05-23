@@ -117,11 +117,11 @@ All known errors cause the resource to return HTTP error code header together wi
    "total_pages":301,
    "page":2,
    "pagesize":2,
-   "url":"http:\/\/localhost:8000\/v1\/quotes",
+   "url":"https:\/\/api.teen-quotes.com\/v1\/quotes",
    "has_next_page":true,
-   "next_page":"http:\/\/localhost:8000\/v1\/quotes?page=3&pagesize=2",
+   "next_page":"https:\/\/api.teen-quotes.com\/v1\/quotes?page=3&pagesize=2",
    "has_previous_page":true,
-   "previous_page":"http:\/\/localhost:8000\/v1\/quotes?page=1&pagesize=2"
+   "previous_page":"https:\/\/api.teen-quotes.com\/v1\/quotes?page=1&pagesize=2"
 }
 ```
 

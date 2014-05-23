@@ -52,7 +52,7 @@ All known errors cause the resource to return HTTP error code header together wi
    "last_visit":"2014-05-22 13:41:07",
    "created_at":"2014-05-19 12:46:56",
    "profile_hidden":true,
-   "url_avatar":"http:\/\/localhost:8000\/uploads\/avatar\/42.jpg",
+   "url_avatar":"http:\/\/teen-quotes.com\/uploads\/avatar\/42.jpg",
    "wants_notification_comment_quote":true,
    "is_admin":true,
    "country_object":{
