@@ -47,35 +47,40 @@ All known errors cause the resource to return HTTP error code header together wi
 **Return**
 ``` json
 [
-  {
-    "id": "683",
-    "content": "Rerum vero in iusto saepe dolor sit ipsa. Eius ut sapiente quod. Aut nobis atque perferendis maiores quos odit.",
-    "user_id": "17",
-    "approved": "1",
-    "created_at": "2013-10-13 12:54:27",
-    "has_comments": true,
-    "total_comments": 1,
-    "is_favorite": true,
-    "comments": [
-      {
-        "id": "487",
-        "content": "Architecto voluptas officiis alias dicta et. Nihil libero eveniet sint qui quia. Vitae quas dicta consequatur qui et provident et. Non ut fugiat occaecati quia. Illum tenetur consequatur eum dolorem.",
-        "quote_id": "683",
-        "user_id": "10",
-        "created_at": "2013-03-31 17:40:07",
-        "user": {
-          "id": "10",
-          "login": "urijh94",
-          "avatar": "http:\/\/placekitten.com\/400\/400",
-          "profile_hidden": false
-        }
+   {
+      "id":"683",
+      "content":"Rerum vero in iusto saepe dolor sit ipsa. Eius ut sapiente quod. Aut nobis atque perferendis maiores quos odit.",
+      "user_id":"17",
+      "approved":"1",
+      "created_at":"2013-10-13 12:54:27",
+      "has_comments":true,
+      "total_comments":1,
+      "is_favorite":true,
+      "comments":[
+         {
+            "id":"487",
+            "content":"Architecto voluptas officiis alias dicta et. Nihil libero eveniet sint qui quia. Vitae quas dicta consequatur qui et provident et. Non ut fugiat occaecati quia. Illum tenetur consequatur eum dolorem.",
+            "quote_id":"683",
+            "user_id":"10",
+            "created_at":"2013-03-31 17:40:07",
+            "user":{
+               "id":"10",
+               "login":"urijh94",
+               "profile_hidden":false,
+               "url_avatar":"http:\/\/placekitten.com\/400\/400",
+               "wants_notification_comment_quote":false,
+               "is_admin":false
+            }
+         }
+      ],
+      "user":{
+         "id":"17",
+         "login":"qzymi52",
+         "profile_hidden":false,
+         "url_avatar":"http:\/\/placekitten.com\/400\/400",
+         "wants_notification_comment_quote":false,
+         "is_admin":false
       }
-    ],
-    "user": {
-      "id": "17",
-      "login": "qzymi52",
-      "profile_hidden": false
-    }
-  }
+   }
 ]
 ```
