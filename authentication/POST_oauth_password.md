@@ -15,6 +15,15 @@ The following parameters are required:
 - **username** - The login of the user. The **access_token** will authenticate this user after.
 - **password** - The password of the user. It shouldn't be hashed.
 
+Example POST request:
+``` json
+{
+   "grant_type":"password",
+   "client_id":"42",
+   "client_secret":"IZgwaBTZ2EdtT3hT7UzG2rLQ8S0Vmu9GDxeHwcPz",
+   "username":"antoineaugusti",
+   "password":"iamawesome"
+}
 
 ## Return format
 A JSON object containing the following keys.
