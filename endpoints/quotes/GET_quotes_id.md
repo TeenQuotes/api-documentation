@@ -84,3 +84,11 @@ All known errors cause the resource to return HTTP error code header together wi
    }
 ]
 ```
+
+For an error with HTTP code 404:
+``` json
+{
+   "status":404,
+   "error":"Quote not found."
+}
+```
