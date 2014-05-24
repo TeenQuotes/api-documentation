@@ -38,6 +38,7 @@ All known errors cause the resource to return HTTP error code header together wi
 
     GET https://api.teen-quotes.com/v1/users/42
 
+### Success
 **Return**
 ``` json
 {
@@ -78,6 +79,7 @@ All known errors cause the resource to return HTTP error code header together wi
 }
 ```
 
+### Error
 For an error with HTTP code 404:
 ``` json
 {

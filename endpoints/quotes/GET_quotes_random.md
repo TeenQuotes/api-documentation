@@ -72,6 +72,7 @@ All known errors cause the resource to return HTTP error code header together wi
 
     GET https://api.teen-quotes.com/v1/quotes/random?page=2&pagesize=2
 
+### Success
 **Return**
 ``` json
 {
@@ -124,7 +125,7 @@ All known errors cause the resource to return HTTP error code header together wi
    "previous_page":"https:\/\/api.teen-quotes.com\/v1\/quotes\/random?page=1&pagesize=2"
 }
 ```
-
+### Error
 For an error with HTTP code 404:
 ``` json
 {

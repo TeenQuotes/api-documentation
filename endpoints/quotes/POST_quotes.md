@@ -66,7 +66,6 @@ All known errors cause the resource to return HTTP error code header together wi
 ```
 
 ### Error
-
 For an error with HTTP code 400:
 ``` json
 {
