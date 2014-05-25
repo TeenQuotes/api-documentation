@@ -4,6 +4,7 @@ All API calls to endpoints require an **access_token**. Check the authentication
 ## Authentication
 
 - **[<code>POST</code> oauth](https://github.com/TeenQuotes/api-documentation/blob/master/authentication/POST_oauth_password.md)** Request an `access_token` for a user.
+- **[<code>POST</code> oauth](https://github.com/TeenQuotes/api-documentation/blob/master/authentication/POST_oauth_client_credentials.md)** Get an `access_token` that identifies an application itself.
 - **[<code>POST</code> oauth](https://github.com/TeenQuotes/api-documentation/blob/master/authentication/POST_oauth_refresh_token.md)** Refresh an `access_token` from a `refresh_token`.
 
 ## Endpoints
@@ -19,4 +20,5 @@ All API calls to endpoints require an **access_token**. Check the authentication
 - **[<code>GET</code> quotes/:id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/quotes/GET_quotes_id.md)** Get information about a single quote.
 
 #### Users Resources
+- **[<code>POST</code> users](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/users/POST_users.md)** Create a new user.
 - **[<code>GET</code> users/:id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/users/GET_users_id.md)** Get information about a single user.
