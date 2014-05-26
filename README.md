@@ -22,3 +22,4 @@ All API calls to endpoints require an **access_token**. Check the authentication
 #### Users Resources
 - **[<code>POST</code> users](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/users/POST_users.md)** Create a new user.
 - **[<code>GET</code> users/:id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/users/GET_users_id.md)** Get information about a single user.
+- **[<code>PUT</code> users/password](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/users/PUT_users_password.md)** Update the password of the user.
