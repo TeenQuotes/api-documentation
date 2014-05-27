@@ -118,9 +118,9 @@ All known errors cause the resource to return HTTP error code header together wi
    "total_pages":11,
    "page":1,
    "pagesize":2,
-   "url":"http:\/\/localhost:8000\/v1\/quotes\/favorites\/70",
+   "url":"https:\/\/api.teen-quotes.com\/v1\/quotes\/favorites\/70",
    "has_next_page":true,
-   "next_page":"http:\/\/localhost:8000\/v1\/quotes\/favorites\/70?page=2&pagesize=2",
+   "next_page":"https:\/\/api.teen-quotes.com\/v1\/quotes\/favorites\/70?page=2&pagesize=2",
    "has_previous_page":false
 }
 ```
