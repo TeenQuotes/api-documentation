@@ -9,6 +9,9 @@ All API calls to endpoints require an **access_token**. Check the authentication
 
 ## Endpoints
 
+#### Countries Resources
+- **[<code>GET</code> countries/:id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/countries/GET_countries_id.md)** Get information about a country.
+
 #### FavoriteQuotes Resources
 - **[<code>POST</code> favorites/:id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/favorites/POST_favorites_id.md)** Add a quote in the user's favorites.
 - **[<code>DELETE</code> favorites/:id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/favorites/DELETE_favorites_id.md)** Remove a quote from the user's favorites.
