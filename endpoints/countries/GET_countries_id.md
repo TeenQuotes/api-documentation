@@ -17,7 +17,7 @@ An example call with CURL:
      curl --header "Authorization: ZllAle9NZ11FkMyX5xm0evswWOTinrr5I26uLcGB" https://api.teen-quotes.com/v1/countries/42
 
 ## Return format
-A JSON object describing a Country Object.
+A JSON object describing a Country object.
 
 - **id** - The ID of the country.
 - **name** - The English name of the country.
