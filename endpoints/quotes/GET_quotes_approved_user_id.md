@@ -1,9 +1,9 @@
 # Quotes Resources
 
-    GET quotes/favorites/:user_id
+    GET quotes/:approved_type/:user_id
 
 ## Description
-Returns information about favorites quotes for a given user ID.
+Returns information about quotes for a given user ID and an `approved` quotes' status.
 
 ## Requires authentication
 * A valid access token must be provided in **access_token** parameter.
@@ -14,11 +14,12 @@ The `access_token` should be sent using an HTTP header like so:
 
 An example call with CURL:
 
-     curl --header "Authorization: ZllAle9NZ11FkMyX5xm0evswWOTinrr5I26uLcGB" https://api.teen-quotes.com/v1/quotes/favorites/42
+     curl --header "Authorization: ZllAle9NZ11FkMyX5xm0evswWOTinrr5I26uLcGB" https://api.teen-quotes.com/v1/quotes/published/42
 
 ## Parameters
 ###URL parameters
 
+- **approved_type** - Describes the status of the quote. Possible values: `waiting`, `refused`, `pending`, `published`. `waiting` is for quotes waiting for moderation and `pending` is for quotes waiting to be published.
 - **user_id** - The ID of the for user.
 
 ### Optional parameters
@@ -29,7 +30,7 @@ The following parameters are optional. If you don't provide these parameters the
 
 Example request:
 
-    GET https://api.teen-quotes.com/v1/quotes/favorites/42?page=2&pagesize=5
+    GET https://api.teen-quotes.com/v1/quotes/published/42?page=2&pagesize=5
 
 ## Return format
 A JSON object containing keys **quotes** where **quotes** is a list of Quote object in **full format** with their author in **small format**.
@@ -75,7 +76,7 @@ All known errors cause the resource to return HTTP error code header together wi
 ## Example
 **Request**
 
-    GET https://api.teen-quotes.com/v1/quotes/favorites/42?page=1&pagesize=2
+    GET https://api.teen-quotes.com/v1/quotes/published/42?page=1&pagesize=2
 
 ### Success
 **Return**
@@ -83,49 +84,49 @@ All known errors cause the resource to return HTTP error code header together wi
 {
    "quotes":[
       {
-         "id":152,
-         "content":"Molestiae eius aut molestiae distinctio aut aut. Nihil consequuntur omnis dolores autem adipisci vel recusandae id. Quisquam veritatis similique cum ea aut.",
-         "user_id":38,
+         "id":738,
+         "content":"Corrupti ut dolorum suscipit magni. Eum occaecati et doloremque. Ab illum nam quod. Tempora consectetur et aliquid quia consequatur eligendi.",
+         "user_id":42,
          "approved":1,
-         "created_at":"2012-04-30 17:28:54",
+         "created_at":"2013-12-07 17:28:54",
          "has_comments":true,
-         "total_comments":1,
+         "total_comments":2,
          "is_favorite":false,
          "user":{
-            "id":38,
-            "login":"tgdia37",
+            "id":42,
+            "login":"antoineaugusti",
             "profile_hidden":false,
-            "url_avatar":"http:\/\/placekitten.com\/400\/400",
+            "url_avatar":"http:\/\/teen-quotes.com\/uploads\/avatar\/42.jpg",
             "wants_notification_comment_quote":false,
             "is_admin":false
          }
       },
       {
-         "id":192,
-         "content":"Accusantium autem autem voluptatibus. Perferendis itaque unde aperiam et. Voluptatem debitis ea nulla vero.",
-         "user_id":23,
+         "id":646,
+         "content":"Sit in recusandae sint consectetur temporibus tempora consequatur. Pariatur ullam ea temporibus rerum. Modi quibusdam animi quibusdam nam cupiditate.",
+         "user_id":42,
          "approved":1,
-         "created_at":"2012-06-09 17:28:54",
+         "created_at":"2013-09-06 17:28:54",
          "has_comments":true,
          "total_comments":3,
          "is_favorite":false,
          "user":{
-            "id":23,
-            "login":"eyart44",
+            "id":42,
+            "login":"antoineaugusti",
             "profile_hidden":false,
-            "url_avatar":"http:\/\/placekitten.com\/400\/400",
+            "url_avatar":"http:\/\/teen-quotes.com\/uploads\/avatar\/42.jpg",
             "wants_notification_comment_quote":false,
             "is_admin":false
          }
       }
    ],
-   "total_quotes":21,
-   "total_pages":11,
+   "total_quotes":4,
+   "total_pages":2,
    "page":1,
    "pagesize":2,
-   "url":"https:\/\/api.teen-quotes.com\/v1\/quotes\/favorites\/70",
+   "url":"https:\/\/api.teen-quotes.com\/v1\/quotes\/published\/42",
    "has_next_page":true,
-   "next_page":"https:\/\/api.teen-quotes.com\/v1\/quotes\/favorites\/70?page=2&pagesize=2",
+   "next_page":"https:\/\/api.teen-quotes.com\/v1\/quotes\/published\/42?page=2&pagesize=2",
    "has_previous_page":false
 }
 ```
