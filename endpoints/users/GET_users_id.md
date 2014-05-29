@@ -17,11 +17,32 @@ An example call with CURL:
      curl --header "Authorization: ZllAle9NZ11FkMyX5xm0evswWOTinrr5I26uLcGB" https://api.teen-quotes.com/v1/users/42
 
 ## Return format
-A JSON object containing keys **country_object** and **newsletters**, where **country_object** is a Country object in **small format** and **newsletters** is a list of Newsletter object associated with the user in the following format:
+A JSON object containing keys **country_object** and **newsletters**, where **country_object** is a Country object in **small format** and **newsletters** is a list of Newsletter object nested inside the User object with the following format:
 
 - **user_id** — The ID of the user subscribed to the newsletter.
 - **type** — The type of the newsletter. Possible values: daily|weekly
-- **created_at** - Indicates when the object was created
+- **created_at** - Indicates when the object was created. Example value: 2014-05-29 07:09:49
+
+**User** object:
+
+- **id** - ID of the quote.
+- **login** - Username of the user.
+- **email** - Email address of the user.
+- **birthdate** - The  birth date of the user. Format: YYYY-MM-DD
+- **gender** - Gender of the user. Possible values: `M`,`F`
+- **country** - ID of the country of the user.
+- **city** - City of the user.
+- **about_me** - User' self description.
+- **last_visit** - Last visit time of the user. Example: 2013-12-14 17:11:53
+- **created_at** - Tells when the user created its account. Example: 2013-12-14 17:11:53
+- **profile_hidden** - Tells if the user has got a hidden profile or not. Boolean value.
+- **url_avatar** - Full URL of the avatar of the user.
+- **wants_notification_comment_quote** - Tells if the user want to receive a notification when a comment is added on one of its published quotes. Boolean value.
+- **is_admin** - Tells if a user is an administrator. Boolean value.
+- **total_comments** - Total number of comments
+- **favorite_count** - Number of quotes added to the favorites of the user.
+- **added_fav_count** - Number of times where published quotes of the user where added to other users favorites.
+- **published_quotes_count** - Number of published quotes of the user.
 
 The **country_object** as got the following format:
 
