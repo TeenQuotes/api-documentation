@@ -32,5 +32,8 @@ All API calls to endpoints require an **access_token**. Check the authentication
 - **[<code>PUT</code> users/password](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/users/PUT_users_password.md)** Update the password of the user.
 - **[<code>GET</code> users/search/:query](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/users/GET_users_search_query.md)** Search users with a query based on their username. Returns only not hidden profiles.
 
+#### Search Resources
+- **[<code>GET</code> search/:query](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/search/GET_search_query.md)** Search published quotes and users with a query of words. Users are displayed only if their profile is not hidden.
+
 ## Support and bug reports
 Contact Antoine Augusti at antoine.augusti@teen-quotes.com
