@@ -46,7 +46,7 @@ The `error` messages are the following:
 ``` json
 {
    "user_id":42,
-   "quote_id":"750",
+   "quote_id":750,
    "updated_at":"2014-05-24 14:14:38",
    "created_at":"2014-05-24 14:14:38",
    "id":2005

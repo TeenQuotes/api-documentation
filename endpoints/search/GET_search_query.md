@@ -58,18 +58,18 @@ No known errors. If the search returns no results, `total_quotes` and `total_use
 {
    "quotes":[
       {
-         "id":159,
-         "content":"Et non consequuntur qui quod. Fugiat omnis est est placeat ipsum cupiditate. Corrupti sed at similique nihil non velit. Nostrum sit quaerat sed ea.",
-         "user_id":57,
+         "id":653,
+         "content":"Consequatur autem odit sed eius nostrum. Ut voluptatem sed voluptatum quisquam laborum nesciunt. Modi cumque neque sed id ea architecto. Quis dolor impedit autem doloribus. Maiores sed voluptatem dolorem voluptatem sunt sit.",
+         "user_id":26,
          "approved":1,
-         "created_at":"2012-05-07 07:09:41",
-         "rank":0.82449531555176,
+         "created_at":"2013-09-13 07:00:38",
+         "rank":1.4223313331604,
          "has_comments":true,
          "total_comments":3,
          "is_favorite":false,
          "user":{
-            "id":57,
-            "login":"ovilo90",
+            "id":26,
+            "login":"evskw67",
             "profile_hidden":false,
             "url_avatar":"http:\/\/placekitten.com\/400\/400",
             "wants_notification_comment_quote":false,
@@ -77,18 +77,18 @@ No known errors. If the search returns no results, `total_quotes` and `total_use
          }
       },
       {
-         "id":188,
-         "content":"Ut accusamus delectus qui modi consectetur sequi. Sed repudiandae omnis necessitatibus repudiandae eos eligendi. Non sed maiores dolorem optio sunt.",
-         "user_id":28,
+         "id":237,
+         "content":"Officiis ducimus sed et ut reiciendis quidem. Voluptatibus sed labore vitae voluptatem ipsa. Aut delectus adipisci doloribus dolores suscipit est blanditiis. Sed veritatis impedit suscipit aspernatur eius. Velit praesentium deleniti expedita ex velit qui nam.",
+         "user_id":58,
          "approved":1,
-         "created_at":"2012-06-05 07:09:41",
-         "rank":0.82449531555176,
-         "has_comments":false,
-         "total_comments":0,
+         "created_at":"2012-07-24 07:00:38",
+         "rank":1.0667484998703,
+         "has_comments":true,
+         "total_comments":3,
          "is_favorite":false,
          "user":{
-            "id":28,
-            "login":"wtjxu72",
+            "id":58,
+            "login":"csgbm76",
             "profile_hidden":false,
             "url_avatar":"http:\/\/placekitten.com\/400\/400",
             "wants_notification_comment_quote":false,
@@ -97,29 +97,10 @@ No known errors. If the search returns no results, `total_quotes` and `total_use
       }
    ],
    "users":[
-      {
-         "id":42,
-         "login":"sedami",
-         "email":"sedami@gmail.com",
-         "birthdate":"1983-02-15",
-         "gender":"M",
-         "country":"232",
-         "city":"North Brian",
-         "about_me":"Cupiditate facilis quod excepturi deleniti molestias natus voluptas. Nesciunt voluptas molestiae molestias aperiam placeat et. Ipsa dolores dolore fugiat sequi molestiae suscipit atque.",
-         "last_visit":"2014-05-29 07:55:40",
-         "created_at":"2014-05-29 07:09:34",
-         "profile_hidden":false,
-         "url_avatar":"http:\/\/teen-quotes.com\/uploads\/avatar\/42.jpg",
-         "wants_notification_comment_quote":true,
-         "is_admin":true,
-         "country_object":{
-            "id":232,
-            "name":"Virgin Islands, U.S. Virgin Islands"
-         }
-      }
+
    ],
-   "total_quotes":22,
-   "total_users":1,
+   "total_quotes":154,
+   "total_users":0,
    "pagesize":2,
    "url":"https:\/\/api.teen-quotes.com\/v1\/search\/sed"
 }

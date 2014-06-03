@@ -87,20 +87,20 @@ All known errors cause the resource to return HTTP error code header together wi
          "id":42,
          "login":"antoineaugusti",
          "email":"antoine.augusti@gmail.com",
-         "birthdate":"1983-02-15",
+         "birthdate":"2013-11-05",
          "gender":"M",
-         "country":"232",
-         "city":"North Brian",
-         "about_me":"Cupiditate facilis quod excepturi deleniti molestias natus voluptas. Nesciunt voluptas molestiae molestias aperiam placeat et. Ipsa dolores dolore fugiat sequi molestiae suscipit atque.",
-         "last_visit":"2013-12-14 17:11:53",
-         "created_at":"2014-05-29 07:09:34",
+         "country":209,
+         "city":"North Verlafort",
+         "about_me":"Et veritatis id dolorem ex. Ut voluptatum in quia at aspernatur est vitae. Accusamus aliquid laudantium et aliquid error debitis vitae quod.",
+         "last_visit":"2014-02-21 06:18:00",
+         "created_at":"2014-06-03 07:00:28",
          "profile_hidden":false,
-         "url_avatar":"http:\/\/teen-quotes.com\/uploads\/avatar\/42.jpg",
+         "url_avatar":"http:\/\/teen-quotes.com\/uploads\/avatar\/42.png",
          "wants_notification_comment_quote":true,
          "is_admin":true,
          "country_object":{
-            "id":232,
-            "name":"Virgin Islands, U.S. Virgin Islands"
+            "id":209,
+            "name":"Thailand"
          }
       }
    ],

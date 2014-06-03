@@ -56,7 +56,7 @@ All known errors cause the resource to return HTTP error code header together wi
 ``` json
 {
    "content":"Hello this is an amazing quote it should be displayed",
-   "user_id":"42",
+   "user_id":42,
    "created_at":"2014-05-23 17:29:41",
    "id":751,
    "has_comments":false,
