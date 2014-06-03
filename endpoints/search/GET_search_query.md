@@ -97,10 +97,29 @@ No known errors. If the search returns no results, `total_quotes` and `total_use
       }
    ],
    "users":[
-
+      {
+         "id":42,
+         "login":"sedami",
+         "email":"sedami@gmail.com",
+         "birthdate":"1983-02-15",
+         "gender":"M",
+         "country":"232",
+         "city":"North Brian",
+         "about_me":"Cupiditate facilis quod excepturi deleniti molestias natus voluptas. Nesciunt voluptas molestiae molestias aperiam placeat et. Ipsa dolores dolore fugiat sequi molestiae suscipit atque.",
+         "last_visit":"2014-05-29 07:55:40",
+         "created_at":"2014-05-29 07:09:34",
+         "profile_hidden":false,
+         "url_avatar":"http:\/\/teen-quotes.com\/uploads\/avatar\/42.jpg",
+         "wants_notification_comment_quote":true,
+         "is_admin":true,
+         "country_object":{
+            "id":232,
+            "name":"Virgin Islands, U.S. Virgin Islands"
+         }
+      }
    ],
    "total_quotes":154,
-   "total_users":0,
+   "total_users":1,
    "pagesize":2,
    "url":"https:\/\/api.teen-quotes.com\/v1\/search\/sed"
 }
