@@ -37,5 +37,8 @@ All API calls to endpoints require an **access_token**. Check the authentication
 #### Search Resources
 - **[<code>GET</code> search/:query](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/search/GET_search_query.md)** Search published quotes and users with a query of words. Users are displayed only if their profile is not hidden.
 
+#### Stories Resources
+- **[<code>GET</code> stories](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/stories/GET_stories.md)** Get information about multiples stories.
+
 ## Support and bug reports
 Contact Antoine Augusti at antoine.augusti@teen-quotes.com
