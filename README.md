@@ -39,6 +39,7 @@ All API calls to endpoints require an **access_token**. Check the authentication
 
 #### Stories Resources
 - **[<code>GET</code> stories](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/stories/GET_stories.md)** Get information about multiples stories.
+- **[<code>GET</code> stories/:id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/stories/GET_stories_id.md)** Get information about a single story.
 
 ## Support and bug reports
 Contact Antoine Augusti at antoine.augusti@teen-quotes.com
