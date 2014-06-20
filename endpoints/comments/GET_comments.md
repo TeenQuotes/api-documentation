@@ -30,15 +30,13 @@ Example request:
 ## Return format
 A JSON object containing keys **comments** where **comments** is a list of Comment object in **full format** with their author in **small format**. If the parameter `quote` is specified with the value `true`, the Quote object is in **full format**.
 
-Story object:
+Comment object:
 
-- **id** - ID of the story.
-- **represent_txt** - Tells how the user uses Teen Quotes and why it is useful for him
-- **frequence_txt** - Tells how often the user uses Teen Quotes and in which context
-- **user_id** - ID of the author of the story.
-- **created_at** - Date telling when the story was submitted.
-- **updated_at** - Date telling when the story was edited.
-
+- **id** - ID of the comment.
+- **content** - The body of the comment.
+- **quote_id** - ID of the quote related to the comment.
+- **user_id** - ID of the author of the comment.
+- **created_at** - Date telling when the comment was submitted.
 
 User object:
 
