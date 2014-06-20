@@ -9,6 +9,9 @@ All API calls to endpoints require an **access_token**. Check the authentication
 
 ## Endpoints
 
+#### Comments Resources
+- **[<code>GET</code> comments](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/comments/GET_comments.md)** Get information about multiples comments.
+
 #### Countries Resources
 - **[<code>GET</code> countries](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/countries/GET_countries.md)** Get information about all countries.
 - **[<code>GET</code> countries/:id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/countries/GET_countries_id.md)** Get information about a country.
