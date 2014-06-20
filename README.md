@@ -11,6 +11,7 @@ All API calls to endpoints require an **access_token**. Check the authentication
 
 #### Comments Resources
 - **[<code>GET</code> comments](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/comments/GET_comments.md)** Get information about multiples comments.
+- **[<code>POST</code> comments/:quote_id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/comments/POST_comments_quote_id.md)** Create a new comment.
 - **[<code>GET</code> comments/:id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/comments/GET_comments_id.md)** Get information about a single comment.
 
 #### Countries Resources
