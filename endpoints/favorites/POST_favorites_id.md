@@ -33,8 +33,9 @@ All known errors cause the resource to return HTTP error code header together wi
 ### `error` messages
 The `error` messages are the following:
 
-- If `status` is `quote_not_found`: The quote #:id was not found
-- If `status` is `quote_already_favorited`: The quote #:id was already favorited
+- If `status` is `quote_not_found`: `The quote #:id was not found.`
+- If `status` is `quote_already_favorited`: `The quote #:id was already favorited.`
+- If `status` is `quote_not_published`: `The quote #:id is not published.`
 
 ## Example
 **Request**
