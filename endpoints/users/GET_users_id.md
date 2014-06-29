@@ -43,6 +43,8 @@ A JSON object containing keys **country_object** and **newsletters**, where **co
 - **favorite_count** - Number of quotes added to the favorites of the user.
 - **added_fav_count** - Number of times where published quotes of the user where added to other users favorites.
 - **published_quotes_count** - Number of published quotes of the user.
+- **is_subscribed_to_daily** - `true` if the user wants to receive the daily newsletter. `false` otherwise.
+- **is_subscribed_to_weekly** - `true` if the user wants to receive the weekly newsletter. `false` otherwise.
 
 The **country_object** as got the following format:
 
@@ -91,7 +93,9 @@ All known errors cause the resource to return HTTP error code header together wi
    "total_comments":19,
    "favorite_count":21,
    "added_fav_count":7,
-   "published_quotes_count":3
+   "published_quotes_count":3,
+   "is_subscribed_to_daily":true,
+   "is_subscribed_to_weekly":false
 }
 ```
 
