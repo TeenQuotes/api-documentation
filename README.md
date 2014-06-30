@@ -37,6 +37,7 @@ All API calls to endpoints require an **access_token**. Check the authentication
 - **[<code>GET</code> users](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/users/GET_users_id.md)** Get information about the logged in user.
 - **[<code>GET</code> users/:id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/users/GET_users_id.md)** Get information about a single user.
 - **[<code>PUT</code> users/password](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/users/PUT_users_password.md)** Update the password of the user.
+- **[<code>PUT</code> users/profile](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/users/PUT_users_profile.md)** Update the profile of the user.
 - **[<code>PUT</code> users/settings](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/users/PUT_users_settings.md)** Update the settings of the user.
 - **[<code>GET</code> users/search/:query](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/users/GET_users_search_query.md)** Search users with a query based on their username. Returns only not hidden profiles.
 
