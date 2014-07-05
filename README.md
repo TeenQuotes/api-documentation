@@ -22,6 +22,10 @@ All API calls to endpoints require an **access_token**. Check the authentication
 - **[<code>POST</code> favorites/:id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/favorites/POST_favorites_id.md)** Add a quote in the user's favorites.
 - **[<code>DELETE</code> favorites/:id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/favorites/DELETE_favorites_id.md)** Remove a quote from the user's favorites.
 
+#### Password Resources
+- **[<code>POST</code> password/remind](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/password/POST_password_remind.md)** Ask for a reset password token.
+- **[<code>POST</code> password/reset](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/password/POST_password_reset.md)** Reset a password using a reset token.
+
 #### Quotes Resources
 - **[<code>GET</code> quotes](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/quotes/GET_quotes.md)** Get information about multiples quotes.
 - **[<code>POST</code> quotes](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/quotes/POST_quotes.md)** Submit a new quote.
