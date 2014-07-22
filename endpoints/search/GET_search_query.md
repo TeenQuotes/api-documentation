@@ -45,7 +45,9 @@ Additional keys:
 - **url** - URL of the current page.
 
 ## Errors
-No known errors. If the search returns no results, `total_quotes` and `total_users` will have a value of `0`.
+All known errors cause the resource to return HTTP error code header together with a JSON array containing at least `status` and `error` keys describing the source of error.
+
+- **404 Not Found** — No results have been found for this query, this page and this pagesize.
 
 ## Example
 **Request**
