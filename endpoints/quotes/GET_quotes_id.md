@@ -44,6 +44,8 @@ The author of the quote as got the following format:
 - **login** - username of the user
 - **profile_hidden** - does the user has got a public profile or not
 
+Information about users who favorited the quote can be found in the **favorites** key. User who favorited the quote are displayed in **small format**.
+
 ## Errors
 All known errors cause the resource to return HTTP error code header together with a JSON array containing at least `status` and `error` keys describing the source of error.
 
@@ -52,63 +54,93 @@ All known errors cause the resource to return HTTP error code header together wi
 ## Example
 **Request**
 
-    GET https://api.teen-quotes.com/v1/quotes/683
+    GET https://api.teen-quotes.com/v1/quotes/200
 
 ### Success
 **Return**
 ``` json
-[
-   {
-      "id":683,
-      "content":"Tenetur dolorem doloribus et beatae. Et non dolorum nisi maxime. Voluptatum quis laudantium nam quibusdam maxime nulla exercitationem. Eligendi consequuntur enim enim et quia.",
-      "user_id":40,
-      "approved":1,
-      "created_at":"2013-10-13 07:00:38",
-      "has_comments":true,
-      "total_comments":2,
-      "is_favorite":false,
-      "comments":[
-         {
-            "id":110,
-            "content":"Et pariatur est libero maiores sequi aut optio. Exercitationem sit repellat at est sed et et. Aliquam repellat consequatur odit facilis. Sapiente corporis sed qui accusamus dolorum recusandae ab est.",
-            "quote_id":683,
-            "user_id":89,
-            "created_at":"2012-03-19 07:00:41",
-            "user":{
-               "id":89,
-               "login":"derrl26",
-               "profile_hidden":false,
-               "url_avatar":"http:\/\/placekitten.com\/400\/400",
-               "wants_notification_comment_quote":false,
-               "is_admin":false
-            }
-         },
-         {
-            "id":309,
-            "content":"Dicta laboriosam ullam illo non odit. Quia et ut hic iusto nisi reiciendis. Id dignissimos ratione sit suscipit qui repellat.",
-            "quote_id":683,
-            "user_id":36,
-            "created_at":"2012-10-04 07:00:41",
-            "user":{
-               "id":36,
-               "login":"clbic37",
-               "profile_hidden":false,
-               "url_avatar":"http:\/\/placekitten.com\/400\/400",
-               "wants_notification_comment_quote":false,
-               "is_admin":false
-            }
+{
+   "id":200,
+   "content":"Rerum eaque autem facilis inventore ex repellendus vel voluptas. Perferendis consequatur et quis laudantium. Reprehenderit optio quia non. Saepe maiores ea eum quis.",
+   "user_id":3,
+   "approved":1,
+   "created_at":"2012-06-17 09:45:48",
+   "has_comments":true,
+   "total_comments":2,
+   "is_favorite":false,
+   "comments":[
+      {
+         "id":831,
+         "content":"Aliquid at numquam asperiores eaque. Asperiores molestiae impedit quisquam sit facere. Voluptas et sed et aut libero quo debitis.",
+         "quote_id":200,
+         "user_id":43,
+         "created_at":"2014-05-25 23:34:13",
+         "user":{
+            "id":43,
+            "login":"mouzc05",
+            "profile_hidden":false,
+            "url_avatar":"https:\/\/teen-quotes.com\/assets\/images\/chat.png",
+            "wants_notification_comment_quote":false,
+            "is_admin":false
          }
-      ],
-      "user":{
-         "id":40,
-         "login":"hgbty87",
-         "profile_hidden":false,
-         "url_avatar":"http:\/\/placekitten.com\/400\/400",
-         "wants_notification_comment_quote":false,
-         "is_admin":false
+      },
+      {
+         "id":1392,
+         "content":"Eaque exercitationem enim quia consectetur dolorem culpa. Id vero voluptatibus sunt voluptatem. Nostrum similique molestiae quo. Laboriosam quia maiores distinctio at sint recusandae qui.",
+         "quote_id":200,
+         "user_id":83,
+         "created_at":"2012-12-30 08:02:19",
+         "user":{
+            "id":83,
+            "login":"dfglm47",
+            "profile_hidden":false,
+            "url_avatar":"https:\/\/teen-quotes.com\/assets\/images\/chat.png",
+            "wants_notification_comment_quote":false,
+            "is_admin":false
+         }
       }
+   ],
+   "favorites":[
+      {
+         "id":1680,
+         "quote_id":200,
+         "user_id":76,
+         "created_at":"2014-08-26 09:45:59",
+         "updated_at":"2014-08-26 09:45:59",
+         "user":{
+            "id":76,
+            "login":"xhmlo13",
+            "profile_hidden":false,
+            "url_avatar":"https:\/\/teen-quotes.com\/assets\/images\/chat.png",
+            "wants_notification_comment_quote":false,
+            "is_admin":false
+         }
+      },
+      {
+         "id":999,
+         "quote_id":200,
+         "user_id":78,
+         "created_at":"2014-08-26 09:45:58",
+         "updated_at":"2014-08-26 09:45:58",
+         "user":{
+            "id":78,
+            "login":"cubua90",
+            "profile_hidden":false,
+            "url_avatar":"https:\/\/teen-quotes.com\/assets\/images\/chat.png",
+            "wants_notification_comment_quote":false,
+            "is_admin":false
+         }
+      }
+   ],
+   "user":{
+      "id":3,
+      "login":"wgoir72",
+      "profile_hidden":false,
+      "url_avatar":"https:\/\/teen-quotes.com\/assets\/images\/chat.png",
+      "wants_notification_comment_quote":false,
+      "is_admin":false
    }
-]
+}
 ```
 
 ### Error
