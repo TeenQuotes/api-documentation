@@ -51,6 +51,7 @@ All known errors cause the resource to return HTTP error code header together wi
     POST https://api.teen-quotes.com/v1/comments/708
 
 ### Success
+With an HTTP code 201.
 ``` json
 {
    "content":"Hello world",

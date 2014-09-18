@@ -43,7 +43,7 @@ The `error` messages are the following:
     POST https://api.teen-quotes.com/v1/favorites/750
 
 ### Success
-**Return**
+With an HTTP code 201.
 ``` json
 {
    "user_id":42,
