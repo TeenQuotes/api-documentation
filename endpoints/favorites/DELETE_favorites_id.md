@@ -27,7 +27,7 @@ All known errors cause the resource to return HTTP error code header together wi
 ### `error` messages
 The `error` messages are the following:
 
-- If `status` is `quote_not_found`: The quote #:id was not found
+- If `status` is `quote_not_found`: `The quote #:id was not found.`
 
 ## Example
 **Request**
@@ -39,7 +39,7 @@ The `error` messages are the following:
 ``` json
 {
    "status":"favorite_deleted",
-   "success":"The quote #750 was deleted from favorites"
+   "success":"The quote #750 was deleted from favorites."
 }
 ```
 ### Error
@@ -47,6 +47,6 @@ For an error with HTTP code 400:
 ``` json
 {
    "status":"quote_not_found",
-   "error":"The quote #750 was not found"
+   "error":"The quote #750 was not found."
 }
 ```
