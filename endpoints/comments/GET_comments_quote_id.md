@@ -1,9 +1,9 @@
 # Comments Resources
 
-    GET comments
+    GET comments/:quote_id
 
 ## Description
-Returns information about comments for a given page and a given pagesize.
+Returns information about comments posted on a quote for a given page and a given pagesize.
 
 ## Requires authentication
 * A valid access token must be provided in **access_token** parameter.
@@ -14,7 +14,7 @@ The `access_token` should be sent using an HTTP header like so:
 
 An example call with CURL:
 
-     curl --header "Authorization: ZllAle9NZ11FkMyX5xm0evswWOTinrr5I26uLcGB" https://api.teen-quotes.com/v1/comments
+     curl --header "Authorization: ZllAle9NZ11FkMyX5xm0evswWOTinrr5I26uLcGB" https://api.teen-quotes.com/v1/comments/42
 
 ## Parameters
 All parameters are optional. If you don't provide these parameters the default values will be used:
@@ -25,7 +25,7 @@ All parameters are optional. If you don't provide these parameters the default v
 
 Example request:
 
-    GET https://api.teen-quotes.com/v1/comments?page=2&pagesize=10&quote=true
+    GET https://api.teen-quotes.com/v1/comments/42?page=2&pagesize=10&quote=true
 
 ## Return format
 A JSON object containing keys **comments** where **comments** is a list of Comment object in **full format** with their author in **small format**. If the parameter `quote` is specified with the value `true`, the Quote object is in **full format**.
@@ -79,7 +79,7 @@ All known errors cause the resource to return HTTP error code header together wi
 ## Example
 **Request**
 
-    GET https://api.teen-quotes.com/v1/comments?page=2&pagesize=2&quote=true
+    GET https://api.teen-quotes.com/v1/comments/42?page=2&pagesize=2&quote=true
 
 ### Success
 **Return**

@@ -10,7 +10,7 @@ All API calls to endpoints require an **access_token**. Check the authentication
 ## Endpoints
 
 #### Comments Resources
-- **[<code>GET</code> comments](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/comments/GET_comments.md)** Get information about multiples comments.
+- **[<code>GET</code> comments/:quote_id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/comments/GET_comments_quote_id.md)** Get information about comments posted on a quote.
 - **[<code>POST</code> comments/:quote_id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/comments/POST_comments_quote_id.md)** Create a new comment.
 - **[<code>DELETE</code> comments/:id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/comments/DELETE_comments_id.md)** Delete a comment. The comment must have been posted by the logged in user.
 - **[<code>GET</code> comments/:id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/comments/GET_comments_id.md)** Get information about a single comment.
