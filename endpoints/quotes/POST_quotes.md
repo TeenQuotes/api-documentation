@@ -44,8 +44,8 @@ All known errors cause the resource to return HTTP error code header together wi
 - **400 Bad Request** — When the `status` key has got one of the following values: `too_much_submitted_quotes`, `wrong_content`.
 
 ### `error` messages
-- If `status` is `too_much_submitted_quotes`: `The maximum number of quotes you can submit is 5 per day`
-- If `status` is `wrong_content`: `Content of the quote should be between 50 and 300 characters`
+- If `status` is `too_much_submitted_quotes`: `The maximum number of quotes you can submit is 5 per day.`
+- If `status` is `wrong_content`: `Content of the quote should be between 50 and 300 characters.`
 
 ## Example
 **Request**
