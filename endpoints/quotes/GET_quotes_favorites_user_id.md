@@ -19,7 +19,7 @@ An example call with CURL:
 ## Parameters
 ###URL parameters
 
-- **user_id** - The ID of the for user.
+- **user_id** - The ID of the user.
 
 ### Optional parameters
 The following parameters are optional. If you don't provide these parameters the default values will be used:
@@ -70,7 +70,12 @@ Additional keys:
 ## Errors
 All known errors cause the resource to return HTTP error code header together with a JSON array containing at least `status` and `error` keys describing the source of error.
 
+- **400 Bad request** — When we can't find the user.
 - **404 Not Found** — No quotes have been found for this page and this pagesize.
+
+### `error` messages
+- If `status` is `user_not_found`: `The user #:id was not found`
+- If `status` is `404: `No quotes have been found.`
 
 ## Example
 **Request**
