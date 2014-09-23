@@ -24,7 +24,7 @@ Example request:
     curl -X DELETE --header "Authorization: jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" https://api.teen-quotes.com/v1/users
 
 ## Return format
-A JSON object containing keys `status` and `message`.
+A JSON object containing keys `status` and `success`.
 
 ## Errors
 No known error.
@@ -38,6 +38,6 @@ No known error.
 ``` json
 {
   "status":"user_deleted",
-  "message":"The user has been deleted."
+  "success":"The user has been deleted."
 }
 ```
