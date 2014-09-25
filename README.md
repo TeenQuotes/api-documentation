@@ -1,3 +1,7 @@
+[![Travis CI](http://img.shields.io/travis/TeenQuotes/website/v3.0.svg?style=flat)](https://travis-ci.org/TeenQuotes/website)
+[![Software License](http://img.shields.io/badge/License-CC%20BY--NC--SA-orange.svg?style=flat)](https://github.com/TeenQuotes/website/blob/v3.0/LICENSE.md)
+![API version](http://img.shields.io/badge/API%20version-1.0alpha-blue.svg?style=flat)
+
 # Teen Quotes API
 All API calls to endpoints require an **access_token**. Check the authentication section to know how to get one.
 
