@@ -99,6 +99,6 @@ For an error with HTTP code 404:
 ``` json
 {
    "status":"comment_not_found",
-   "error":"The comment #1500 was not found"
+   "error":"The comment #1500 was not found."
 }
 ```
