@@ -28,7 +28,7 @@ All known errors cause the resource to return HTTP error code header together wi
 - **404 Not Found** — Country with the specified ID does not exist when the `status` key is `country_not_found`.
 
 ### `error` messages
-- When `status` is `country_not_found`: `The country #:id was not found`
+- When `status` is `country_not_found`: `The country #:id was not found.`
 
 ## Example
 **Request**
@@ -49,6 +49,6 @@ For an error with HTTP code 404:
 ``` json
 {
    "status":"country_not_found",
-   "error":"The country #42 was not found"
+   "error":"The country #42 was not found."
 }
 ```

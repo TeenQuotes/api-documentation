@@ -148,6 +148,6 @@ For an error with HTTP code 404:
 ``` json
 {
    "status":"quote_not_found",
-   "error":"The quote #683 was not found"
+   "error":"The quote #683 was not found."
 }
 ```

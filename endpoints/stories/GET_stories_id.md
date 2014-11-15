@@ -74,6 +74,6 @@ For an error with HTTP code 404:
 ``` json
 {
    "status":"story_not_found",
-   "error":"The story #10 was not found"
+   "error":"The story #10 was not found."
 }
 ```
