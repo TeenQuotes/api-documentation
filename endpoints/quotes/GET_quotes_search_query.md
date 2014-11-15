@@ -39,7 +39,7 @@ Quote object:
 - **id** - ID of the quote.
 - **content** - Body of the quote
 - **user_id** - ID of the author of the quote.
-- **approved** - Tells the state of the quote. Since we are showing published quotes, approved will always be `one`.
+- **approved** - Tells the state of the quote. Since we are showing published quotes, approved will always be `1`.
 - **created_at** - Date telling when the quote was submitted.
 - **rank** - Indicates the score of the quote for the search query. > 0
 - **has_comments** - Tells if a quote has comments.

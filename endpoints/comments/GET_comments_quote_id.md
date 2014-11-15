@@ -20,7 +20,7 @@ An example call with CURL:
 All parameters are optional. If you don't provide these parameters the default values will be used:
 
 - **page** - The page number starting from **1** to +infinity. If not specified, the default value is 1.
-- **pagesize** - The number of stories per page. If not specified, the default value is 10.
+- **pagesize** - The number of comments per page. If not specified, the default value is 10.
 - **quote** - Adds information about the quote related to the comment for each comments if the value is `true`. Default is `false`.
 
 Example request:
@@ -52,7 +52,7 @@ If the parameter `quote` is specified with the value `true`. Quote object:
 - **id** - ID of the quote.
 - **content** - Body of the quote
 - **user_id** - ID of the author of the quote.
-- **approved** - Tells the state of the quote. Since we are showing published quotes, approved will always be `one`.
+- **approved** - Tells the state of the quote. Since we are showing published quotes, approved will always be `1`.
 - **created_at** - Date telling when the quote was submitted.
 - **has_comments** - Tells if a quote has comments.
 - **total_comments** - The number of comments for the quote.

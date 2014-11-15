@@ -39,7 +39,7 @@ Quote object:
 - **id** - ID of the quote.
 - **content** - Body of the quote
 - **user_id** - ID of the author of the quote.
-- **approved** - Tells the state of the quote. Since we are showing published quotes, approved will always be `one`.
+- **approved** - Tells the state of the quote. Since we are showing published quotes, approved will always be `1`.
 - **created_at** - Date telling when the quote was submitted.
 - **has_comments** - Tells if a quote has comments.
 - **total_comments** - The number of comments for the quote.
@@ -74,7 +74,7 @@ All known errors cause the resource to return HTTP error code header together wi
 - **404 Not Found** — No quotes have been found for this page and this pagesize.
 
 ### `error` messages
-- If `status` is `user_not_found`: `The user #:id was not found`
+- If `status` is `user_not_found`: `The user #:id was not found.`
 - If `status` is `404: `No quotes have been found.`
 
 ## Example
