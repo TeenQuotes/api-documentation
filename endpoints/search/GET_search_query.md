@@ -69,6 +69,7 @@ All known errors cause the resource to return HTTP error code header together wi
          "has_comments":true,
          "total_comments":3,
          "is_favorite":false,
+         "total_favorites":10,
          "user":{
             "id":26,
             "login":"evskw67",
@@ -88,6 +89,7 @@ All known errors cause the resource to return HTTP error code header together wi
          "has_comments":true,
          "total_comments":3,
          "is_favorite":false,
+         "total_favorites":10,
          "user":{
             "id":58,
             "login":"csgbm76",

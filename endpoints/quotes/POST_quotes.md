@@ -62,7 +62,8 @@ With an HTTP code 201.
    "id":751,
    "has_comments":false,
    "total_comments":0,
-   "is_favorite":false
+   "is_favorite":false,
+   "total_favorites":10
 }
 ```
 

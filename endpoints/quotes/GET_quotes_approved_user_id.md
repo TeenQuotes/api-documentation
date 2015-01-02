@@ -45,7 +45,7 @@ Quote object:
 - **has_comments** - Tells if a quote has comments.
 - **total_comments** - The number of comments for the quote.
 - **is_favorite** - Tells if the quote is in the favorite quotes of the user.
-
+- **total_favorites** - The number of times this quote was added to favorites.
 
 User object:
 
@@ -97,6 +97,7 @@ All known errors cause the resource to return HTTP error code header together wi
          "has_comments":true,
          "total_comments":2,
          "is_favorite":false,
+         "total_favorites":10,
          "user":{
             "id":42,
             "login":"antoineaugusti",
@@ -115,6 +116,7 @@ All known errors cause the resource to return HTTP error code header together wi
          "has_comments":true,
          "total_comments":3,
          "is_favorite":false,
+         "total_favorites":10,
          "user":{
             "id":42,
             "login":"antoineaugusti",

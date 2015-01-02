@@ -68,6 +68,7 @@ All known errors cause the resource to return HTTP error code header together wi
    "has_comments":true,
    "total_comments":2,
    "is_favorite":false,
+   "total_favorites":10,
    "comments":[
       {
          "id":831,
