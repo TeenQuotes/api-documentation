@@ -33,6 +33,7 @@
 	- [<code>POST</code> quotes](endpoints/quotes/POST_quotes.md)
 	- [<code>GET</code> quotes/random](endpoints/quotes/GET_quotes_random.md)
 	- [<code>GET</code> quotes/top_favorites](endpoints/quotes/GET_quotes_top_favorites.md)
+	- [<code>GET</code> quotes/top_comments](endpoints/quotes/GET_quotes_top_comments.md)
 	- [<code>GET</code> quotes/:id](endpoints/quotes/GET_quotes_id.md)
 	- [<code>GET</code> quotes/favorites/:user_id](endpoints/quotes/GET_quotes_favorites_user_id.md)
 	- [<code>GET</code> quotes/:approved_type/:user_id](endpoints/quotes/GET_quotes_approved_user_id.md)
