@@ -10,11 +10,11 @@ Update the password of the user.
 
 The `access_token` should be sent using an HTTP header like so:
 
-     Authorization: access_token
+     Authorization: Bearer access_token
 
 An example call with CURL:
 
-     curl --header "Authorization: jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" https://api.teen-quotes.com/v1/users/password
+     curl --header "Authorization: Bearer jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" https://api.teen-quotes.com/v1/users/password
 
 ## Parameters
 All parameters are required.
@@ -24,7 +24,7 @@ All parameters are required.
 
 Example request:
 
-    curl -X PUT --header "Authorization: jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" --data "password=azerty&password_confirmation=azerty" https://api.teen-quotes.com/v1/users/password
+    curl -X PUT --header "Authorization: Bearer jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" --data "password=azerty&password_confirmation=azerty" https://api.teen-quotes.com/v1/users/password
 
 ## Return format
 A JSON object containing keys `status` and `success`.

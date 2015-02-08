@@ -12,11 +12,11 @@ Since we can't have an **access_token** that identifies the user, the applicatio
 
 The `access_token` should be sent using an HTTP header like so:
 
-     Authorization: access_token
+     Authorization: Bearer access_token
 
 An example call with CURL:
 
-     curl --header "Authorization: jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" https://api.teen-quotes.com/v1/password/reset
+     curl --header "Authorization: Bearer jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" https://api.teen-quotes.com/v1/password/reset
 
 ## Parameters
 All parameters are required.
@@ -27,7 +27,7 @@ All parameters are required.
 
 Example request:
 
-    curl --header "Authorization: jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" --data "email=testuser@teen-quotes.com&token=lt5hrb0s5pz2_qcc4wl4k3f00000gp&password=azerty" https://api.teen-quotes.com/v1/password/reset
+    curl --header "Authorization: Bearer jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" --data "email=testuser@teen-quotes.com&token=lt5hrb0s5pz2_qcc4wl4k3f00000gp&password=azerty" https://api.teen-quotes.com/v1/password/reset
 
 ## Return format
 A JSON object containing keys `status` and `success`.

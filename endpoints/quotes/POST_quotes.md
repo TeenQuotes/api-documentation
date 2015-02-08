@@ -10,11 +10,11 @@ Submit a new quote.
 
 The `access_token` should be sent using an HTTP header like so:
 
-     Authorization: access_token
+     Authorization: Bearer access_token
 
 An example call with CURL:
 
-     curl --header "Authorization: jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" https://api.teen-quotes.com/v1/quotes
+     curl --header "Authorization: Bearer jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" https://api.teen-quotes.com/v1/quotes
 
 ## Parameters
 All parameters are required.
@@ -23,7 +23,7 @@ All parameters are required.
 
 Example request:
 
-    curl --header "Authorization: jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" --data "content=Hello this is an amazing quote it should be displayed" https://api.teen-quotes.com/v1/quotes
+    curl --header "Authorization: Bearer jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" --data "content=Hello this is an amazing quote it should be displayed" https://api.teen-quotes.com/v1/quotes
 
 ## Return format
 A JSON object containing the Quote object that has just been created.

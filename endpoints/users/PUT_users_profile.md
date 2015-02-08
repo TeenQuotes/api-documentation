@@ -10,11 +10,11 @@ Update the profile of the user.
 
 The `access_token` should be sent using an HTTP header like so:
 
-     Authorization: access_token
+     Authorization: Bearer access_token
 
 An example call with CURL:
 
-     curl --header "Authorization: jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" https://api.teen-quotes.com/v1/users/profile
+     curl --header "Authorization: Bearer jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" https://api.teen-quotes.com/v1/users/profile
 
 ## Parameters
 All parameters are optional.
@@ -28,7 +28,7 @@ All parameters are optional.
 
 Example request:
 
-    curl -i -X PUT --data "gender=M&city=Paris&country=17&birthdate=1975-01-01" --header "Authorization: Skyr72P77dw0s2T0eulz7VgDmfntgLWkx7cN13DH" https://api.teen-quotes.com/v1/users/profile
+    curl -i -X PUT --data "gender=M&city=Paris&country=17&birthdate=1975-01-01" --header "Authorization: Bearer Skyr72P77dw0s2T0eulz7VgDmfntgLWkx7cN13DH" https://api.teen-quotes.com/v1/users/profile
 
 ## Return format
 A JSON object containing keys `status` and `success`.
