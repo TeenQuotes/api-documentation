@@ -37,6 +37,8 @@ All API calls to endpoints require an **access_token**. Check the authentication
 - **[<code>GET</code> quotes](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/quotes/GET_quotes.md)** Get information about multiples quotes.
 - **[<code>POST</code> quotes](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/quotes/POST_quotes.md)** Submit a new quote.
 - **[<code>GET</code> quotes/random](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/quotes/GET_quotes_random.md)** Get information about multiples quotes randomly ordered.
+- **[<code>GET</code> quotes/top_favorites](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/quotes/GET_quotes_top_favorites.md)** Get information about the most favorited quotes, in a descending order.
+- **[<code>GET</code> quotes/top_comments](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/quotes/GET_quotes_top_comments.md)** Get information about the most commented quotes, in a descending order.
 - **[<code>GET</code> quotes/:id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/quotes/GET_quotes_id.md)** Get information about a single quote.
 - **[<code>GET</code> quotes/favorites/:user_id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/quotes/GET_quotes_favorites_user_id.md)** Returns information about favorites quotes for a given user ID.
 - **[<code>GET</code> quotes/:approved_type/:user_id](https://github.com/TeenQuotes/api-documentation/blob/master/endpoints/quotes/GET_quotes_approved_user_id.md)** Returns information about quotes for a given user ID and an approved quotes' status.

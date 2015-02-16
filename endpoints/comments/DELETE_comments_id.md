@@ -10,11 +10,11 @@ Delete a comment. **Warning**: the comment must have been posted by the logged i
 
 The `access_token` should be sent using an HTTP header like so:
 
-     Authorization: access_token
+     Authorization: Bearer access_token
 
 An example call with CURL:
 
-     curl -X DELETE --header "Authorization: jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" https://api.teen-quotes.com/v1/comments/42
+     curl -X DELETE --header "Authorization: Bearer jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" https://api.teen-quotes.com/v1/comments/42
 
 ## Return format
 A JSON object containing keys `status` and `success`.

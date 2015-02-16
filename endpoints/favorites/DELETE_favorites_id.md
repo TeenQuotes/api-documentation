@@ -10,11 +10,11 @@ Remove a quote from the user's favorites.
 
 The `access_token` should be sent using an HTTP header like so:
 
-     Authorization: access_token
+     Authorization: Bearer access_token
 
 An example call with CURL:
 
-     curl -X DELETE --header "Authorization: jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" 'https://api.teen-quotes.com/v1/favorites/750'
+     curl -X DELETE --header "Authorization: Bearer jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" 'https://api.teen-quotes.com/v1/favorites/750'
 
 ## Return format
 A JSON object containing keys `status` and `success` with an HTTP code 200.

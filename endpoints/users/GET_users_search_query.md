@@ -10,11 +10,11 @@ Search users with a query based on their username. Returns only not hidden profi
 
 The `access_token` should be sent using an HTTP header like so:
 
-     Authorization: access_token
+     Authorization: Bearer access_token
 
 An example call with CURL:
 
-     curl --header "Authorization: ZllAle9NZ11FkMyX5xm0evswWOTinrr5I26uLcGB" https://api.teen-quotes.com/v1/users/search/lorem
+     curl --header "Authorization: Bearer ZllAle9NZ11FkMyX5xm0evswWOTinrr5I26uLcGB" https://api.teen-quotes.com/v1/users/search/lorem
 
 ## Parameters
 ###URL parameters

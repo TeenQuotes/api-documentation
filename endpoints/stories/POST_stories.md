@@ -10,11 +10,11 @@ Submit a new story.
 
 The `access_token` should be sent using an HTTP header like so:
 
-     Authorization: access_token
+     Authorization: Bearer access_token
 
 An example call with CURL:
 
-     curl --header "Authorization: jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" https://api.teen-quotes.com/v1/stories
+     curl --header "Authorization: Bearer jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" https://api.teen-quotes.com/v1/stories
 
 ## Parameters
 All parameters are required.
@@ -24,7 +24,7 @@ All parameters are required.
 
 Example request:
 
-    curl --header "Authorization: jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" --data "represent_txt=Hello this is an amazing story it should be displayed&frequence_txt=Hello this is an amazing story it should be displayed" https://api.teen-quotes.com/v1/stories
+    curl --header "Authorization: Bearer jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" --data "represent_txt=Hello this is an amazing story it should be displayed&frequence_txt=Hello this is an amazing story it should be displayed" https://api.teen-quotes.com/v1/stories
 
 ## Return format
 A JSON object containing the Story object that has just been created.

@@ -10,11 +10,11 @@ Returns detailed information of a single story.
 
 The `access_token` should be sent using an HTTP header like so:
 
-     Authorization: access_token
+     Authorization: Bearer access_token
 
 An example call with CURL:
 
-     curl --header "Authorization: ZllAle9NZ11FkMyX5xm0evswWOTinrr5I26uLcGB" https://api.teen-quotes.com/v1/stories/42
+     curl --header "Authorization: Bearer ZllAle9NZ11FkMyX5xm0evswWOTinrr5I26uLcGB" https://api.teen-quotes.com/v1/stories/42
 
 ## Return format
 A JSON object describing the Story object. A User object describing the author of the story is avaible inside the `user` key in **small format**.

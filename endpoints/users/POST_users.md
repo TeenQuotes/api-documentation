@@ -12,11 +12,11 @@ Since we can't have an **access_token** for the user that we will create, the ap
 
 The `access_token` should be sent using an HTTP header like so:
 
-     Authorization: access_token
+     Authorization: Bearer access_token
 
 An example call with CURL:
 
-     curl --header "Authorization: jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" https://api.teen-quotes.com/v1/users
+     curl --header "Authorization: Bearer jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" https://api.teen-quotes.com/v1/users
 
 ## Parameters
 All parameters are required.
@@ -27,7 +27,7 @@ All parameters are required.
 
 Example request:
 
-    curl --header "Authorization: jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" --data "login=newuser&password=azerty&email=testuser@teen-quotes.com" https://api.teen-quotes.com/v1/users
+    curl --header "Authorization: Bearer jLJeOz8aEIsKtGSdXsqTDGxmtEduUGkZTVJBo3We" --data "login=newuser&password=azerty&email=testuser@teen-quotes.com" https://api.teen-quotes.com/v1/users
 
 ## Return format
 A JSON object containing the User object that has just been created.
