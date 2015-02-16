@@ -46,10 +46,12 @@ A JSON object containing keys **country_object** and **newsletters**, where **co
 - **is_subscribed_to_daily** - `true` if the user wants to receive the daily newsletter. `false` otherwise.
 - **is_subscribed_to_weekly** - `true` if the user wants to receive the weekly newsletter. `false` otherwise.
 
-The **country_object** as got the following format:
+The **country_object** has got the following format:
 
-- **id** - ID of the country
-- **name** - English name of the country
+- **id** - ID of the country.
+- **name** - English name of the country.
+- **country_code** - The [ISO 3166-1 alpha-2](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) country code.
+
 
 ## Errors
 All known errors cause the resource to return HTTP error code header together with a JSON array containing at least `status` and `error` keys describing the source of error.
@@ -81,7 +83,8 @@ All known errors cause the resource to return HTTP error code header together wi
    "is_admin":true,
    "country_object":{
       "id":209,
-      "name":"Thailand"
+      "name":"Thailand",
+      "country_code": "TH"
    },
    "newsletters":[
       {

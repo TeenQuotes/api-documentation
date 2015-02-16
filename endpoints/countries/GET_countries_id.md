@@ -21,6 +21,7 @@ A JSON object describing a Country object.
 
 - **id** - The ID of the country.
 - **name** - The English name of the country.
+- **country_code** - The [ISO 3166-1 alpha-2](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) country code.
 
 ## Errors
 All known errors cause the resource to return HTTP error code header together with a JSON array containing at least `status` and `error` keys describing the source of error.
@@ -40,7 +41,8 @@ All known errors cause the resource to return HTTP error code header together wi
 ``` json
 {
    "id":42,
-   "name":"Chad"
+   "name":"Chad",
+   "country_code": "TD"
 }
 ```
 

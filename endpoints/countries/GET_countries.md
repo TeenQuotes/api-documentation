@@ -21,6 +21,7 @@ A JSON object describing a list of Country objects.
 
 - **id** - The ID of the country.
 - **name** - The English name of the country.
+- **country_code** - The [ISO 3166-1 alpha-2](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) country code.
 
 ## Example
 **Request**
@@ -33,15 +34,18 @@ A JSON object describing a list of Country objects.
 [
    {
       "id":1,
-      "name":"Afghanistan"
+      "name":"Afghanistan",
+      "country_code": "AF"
    },
    {
       "id":2,
-      "name":"Albania"
+      "name":"Albania",
+      "country_code": "AL"
    },
    {
       "id":3,
-      "name":"Algeria"
+      "name":"Algeria",
+      "country_code": "DZ"
    }
 ]
 ```

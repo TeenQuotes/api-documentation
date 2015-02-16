@@ -51,10 +51,11 @@ A JSON object containing keys **users** and where **users** is a list of User ob
 - **wants_notification_comment_quote** - Tells if the user want to receive a notification when a comment is added on one of its published quotes. Boolean value.
 - **is_admin** - Tells if a user is an administrator. Boolean value.
 
-The **country_object** as got the following format:
+The **country_object** has got the following format:
 
-- **id** - ID of the country
-- **name** - English name of the country
+- **id** - ID of the country.
+- **name** - English name of the country.
+- **country_code** - The [ISO 3166-1 alpha-2](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) country code.
 
 Additional keys:
 
@@ -100,7 +101,8 @@ All known errors cause the resource to return HTTP error code header together wi
          "is_admin":true,
          "country_object":{
             "id":209,
-            "name":"Thailand"
+            "name":"Thailand",
+            "country_code": "TH"
          }
       }
    ],

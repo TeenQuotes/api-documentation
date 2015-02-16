@@ -118,7 +118,8 @@ All known errors cause the resource to return HTTP error code header together wi
          "is_admin":true,
          "country_object":{
             "id":232,
-            "name":"Virgin Islands, U.S. Virgin Islands"
+            "name":"Virgin Islands, U.S. Virgin Islands",
+            "country_code": "VI"
          }
       }
    ],
