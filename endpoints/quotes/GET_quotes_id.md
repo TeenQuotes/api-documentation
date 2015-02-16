@@ -19,30 +19,36 @@ An example call with CURL:
 ## Return format
 A JSON object containing keys **user** and **comments**, where **user** is a User object in **small format** and comments is a list of **comments** associated with the quote in the following format:
 
-- **id** — ID of the comment.
-- **user_id** — The ID of the author of the comment.
-- **quote_id** — Is always the ID of the quote.
-- **content** — Text of the comment.
-- **created_at** - Creation of the comment
-- **has_comments** - Tells if the quote has at least 1 comment
-- **total_comments** - The number of comments
-- **is_favorite** - Tells if the quote is favorited for the current user
-- **user** — Profile of the author of the comment in **short format**.
+Quote object:
 
-The user of a comment as got the following format:
+- **id** - ID of the quote.
+- **content** - Body of the quote
+- **user_id** - ID of the author of the quote.
+- **approved** - Tells the state of the quote. Since we are showing published quotes, approved will always be `1`.
+- **created_at** - Date telling when the quote was submitted.
+- **tags_list** - An array of tags associated with the quote.
+- **has_comments** - Tells if a quote has comments.
+- **total_comments** - The number of comments for the quote.
+- **is_favorite** - Tells if the quote is in the favorite quotes of the user.
+- **total_favorites** - The number of times this quote was added to favorites.
+
+
+User object:
 
 - **id** - ID of the user.
 - **login** - Login of the user.
 - **profile_hidden** - Tells if the profile of the user should be hidden.
 - **url_avatar** - Full URL of the user's avatar.
-- **wants_notification_comment_quote** - Tells if the user wants to be notified when a comment on one of its quotes.
+- **wants_notification_comment_quote** - Tells if the user wants to be notified when a comment is added on one of its quotes.
 - **is_admin** - True if the user is an administrator.
 
-The author of the quote as got the following format:
+Comment object:
 
-- **id** - ID of the user
-- **login** - username of the user
-- **profile_hidden** - does the user has got a public profile or not
+- **id** - ID of the comment.
+- **content** - The body of the comment.
+- **quote_id** - ID of the quote related to the comment.
+- **user_id** - ID of the author of the comment.
+- **created_at** - Date telling when the comment was submitted.
 
 Information about users who favorited the quote can be found in the **favorites** key. User who favorited the quote are displayed in **small format**.
 
@@ -65,6 +71,10 @@ All known errors cause the resource to return HTTP error code header together wi
    "user_id":3,
    "approved":1,
    "created_at":"2012-06-17 09:45:48",
+   "tags_list": [
+     "autb",
+     "impeditb"
+   ],
    "has_comments":true,
    "total_comments":2,
    "is_favorite":false,

@@ -41,6 +41,7 @@ Quote object:
 - **user_id** - ID of the author of the quote.
 - **approved** - Tells the state of the quote. Since we are showing published quotes, approved will always be `1`.
 - **created_at** - Date telling when the quote was submitted.
+- **tags_list** - An array of tags associated with the quote.
 - **rank** - Indicates the score of the quote for the search query. > 0
 - **has_comments** - Tells if a quote has comments.
 - **total_comments** - The number of comments for the quote.
@@ -89,6 +90,9 @@ All known errors cause the resource to return HTTP error code header together wi
          "user_id":82,
          "approved":1,
          "created_at":"2012-11-30 17:28:54",
+         "tags_list": [
+           "autb"
+         ],
          "rank":1.5409713983536,
          "has_comments":true,
          "total_comments":2,
@@ -109,6 +113,9 @@ All known errors cause the resource to return HTTP error code header together wi
          "user_id":37,
          "approved":1,
          "created_at":"2012-06-05 17:28:54",
+         "tags_list": [
+           "autb"
+         ],
          "rank":1.0273143053055,
          "has_comments":true,
          "total_comments":4,

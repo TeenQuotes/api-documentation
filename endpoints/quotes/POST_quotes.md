@@ -34,6 +34,7 @@ Quote object:
 - **content** - Body of the quote
 - **user_id** - ID of the author of the quote.
 - **created_at** - Date telling when the quote was submitted.
+- **tags_list** - An array of tags associated with the quote.
 - **has_comments** - Tells if a quote has comments.
 - **total_comments** - The number of comments for the quote.
 - **is_favorite** - Tells if the quote in the favorite quotes of the user.
@@ -59,6 +60,7 @@ With an HTTP code 201.
    "content":"Hello this is an amazing quote it should be displayed",
    "user_id":42,
    "created_at":"2014-05-23 17:29:41",
+   "tags_list": [],
    "id":751,
    "has_comments":false,
    "total_comments":0,

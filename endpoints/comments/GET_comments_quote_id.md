@@ -54,6 +54,7 @@ If the parameter `quote` is specified with the value `true`. Quote object:
 - **user_id** - ID of the author of the quote.
 - **approved** - Tells the state of the quote. Since we are showing published quotes, approved will always be `1`.
 - **created_at** - Date telling when the quote was submitted.
+- **tags_list** - An array of tags associated with the quote.
 - **has_comments** - Tells if a quote has comments.
 - **total_comments** - The number of comments for the quote.
 - **is_favorite** - Tells if the quote is in the favorite quotes of the user.
@@ -106,6 +107,10 @@ All known errors cause the resource to return HTTP error code header together wi
             "user_id":58,
             "approved":1,
             "created_at":"2013-12-16 06:10:43",
+            "tags_list": [
+              "autb",
+              "impeditb"
+            ],
             "has_comments":true,
             "total_comments":3,
             "is_favorite":false,
@@ -132,6 +137,10 @@ All known errors cause the resource to return HTTP error code header together wi
             "user_id":71,
             "approved":1,
             "created_at":"2013-02-20 06:10:43",
+            "tags_list": [
+              "autb",
+              "impeditb"
+            ],
             "has_comments":true,
             "total_comments":6,
             "is_favorite":false,
